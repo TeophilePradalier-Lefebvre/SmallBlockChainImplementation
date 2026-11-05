@@ -1,0 +1,20 @@
+{
+  "priv_key": <private key (int)>,
+  "address": <IP:port (string)>,
+  "monitor": <IP:port (string)>,
+  "max_peers": <max peers (int)>,
+  "genesis": {
+    "operations": [
+      {
+        "content": {
+          "amount": 1000000,
+          "name": 13828789712027994,
+          "op_type": "Init"
+        },
+        "public_key": 13828789712027994,
+        "signature": 132430957655536018
+      }
+    ],
+    "prev_hash": null
+  }
+}
